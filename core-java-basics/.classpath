@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="boolan-representation/src"/>
+	<classpathentry kind="src" path="boolean-operator/src"/>
+	<classpathentry kind="src" path="command-line-arguments/src"/>
+	<classpathentry kind="src" path="local-variables/src"/>
+	<classpathentry kind="src" path="unary-operators/src"/>
+	<classpathentry kind="output" path="boolan-representation/classes"/>
+</classpath>
