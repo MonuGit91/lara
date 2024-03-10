@@ -11,3 +11,7 @@ class B extends A{
 
 	}
 }
+/*
+output:
+
+*/
