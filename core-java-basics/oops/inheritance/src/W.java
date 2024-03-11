@@ -3,7 +3,7 @@ class A {
 		System.out.println("A()");
 	}
 	{
-		Ststem.out.println("A-IIB");
+		System.out.println("A-IIB");
 	}
 }
 class B extends A{
@@ -14,9 +14,9 @@ class B extends A{
 		System.out.println("B-IIB1");
 	}
 	{
-		Ststem.out.println("B-IIB2");
-		Ststem.out.println("B-IIB2");
-		Ststem.out.println("B-IIB2");
+		System.out.println("B-IIB2");
+		System.out.println("B-IIB2");
+		System.out.println("B-IIB2");
 	}
 	
 }
@@ -28,6 +28,29 @@ class W {
         System.out.println("-------------");
         B b1 = new B();
         System.out.println("-------------");
-        B b1 = new B();
+        B b2 = new B();
     }
 }
+/*
+A-IIB
+A()
+-------------
+A-IIB
+A()
+-------------
+A-IIB
+A()
+B-IIB1
+B-IIB2
+B-IIB2
+B-IIB2
+B()
+-------------
+A-IIB
+A()
+B-IIB1
+B-IIB2
+B-IIB2
+B-IIB2
+B()
+*/

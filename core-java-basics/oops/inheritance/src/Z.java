@@ -45,3 +45,24 @@ class Z {
         System.out.println("main end");
     }
 }
+/*
+Z-SIB
+A-SIB
+A-IIB
+A()
+-------------
+B-SIB
+A-IIB
+A()
+B-IIB
+B()
+-------------
+C-SIB
+A-IIB
+A()
+B-IIB
+B()
+C-IIB
+C()
+main end
+*/

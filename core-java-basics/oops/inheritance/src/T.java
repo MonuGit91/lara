@@ -16,3 +16,6 @@ class T extends A{
 
 	}
 }
+/*
+CTE:
+*/

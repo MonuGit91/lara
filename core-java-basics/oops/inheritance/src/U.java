@@ -15,3 +15,6 @@ class U extends A{
 
 	}
 }
+/*
+successfull
+*/

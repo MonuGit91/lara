@@ -13,3 +13,7 @@ class L extends K{
 		L obj = new L();
 	}
 }
+/*
+K()
+L()
+*/

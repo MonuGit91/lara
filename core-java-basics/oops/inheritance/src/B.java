@@ -13,5 +13,6 @@ class B extends A{
 }
 /*
 output:
-
+0
+0
 */
