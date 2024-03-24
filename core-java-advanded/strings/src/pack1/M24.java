@@ -1,5 +1,6 @@
 package pack1;
 
+//***
 public class M24 {
 
 	public static void main(String[] args) {
