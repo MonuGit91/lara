@@ -6,12 +6,12 @@ import java.io.IOException;
 public class M11 {
 
 	public static void main(String[] args) {
-		File dir = new File("/WrongPath");//IOException
+		File dir = new File("/WrongPath");
 		File f1 = new File(dir, "hello10.txt");
 		
 		System.out.println("a: " + f1.exists());
 		try {
-			System.out.println("b: " + f1.createNewFile());
+			System.out.println("b: " + f1.createNewFile());//IOException since wrong path
 		}
 		catch(IOException ex) {
 			ex.printStackTrace();

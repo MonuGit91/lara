@@ -10,5 +10,4 @@ public class M2 {
 		f1.createNewFile();
 		System.out.println("done");
 	}
-
 }
