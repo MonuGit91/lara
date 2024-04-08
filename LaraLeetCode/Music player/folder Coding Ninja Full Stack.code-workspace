@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Song 1",
+      "artist": "Artist 1",
+      "genre": "Pop",
+      "duration": 180,
+      "release_date": "2022-01-01"
+    },
+    {
+      "title": "Song 2",
+      "artist": "Artist 2",
+      "genre": "Rock",
+      "duration": 240,
+      "release_date": "2022-02-15"
+    },
+    {
+      "title": "Song 3",
+      "artist": "Artist 3",
+      "genre": "Electronic",
+      "duration": 200,
+      "release_date": "2022-03-10"
+    }
+  ]

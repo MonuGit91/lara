@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: broder-box;
+}
+:root{
+    --black : black;
+    --blue: blue;
+}
+header{
+    height: 50px;
+    width: 100vw;
+    border: 5px solid var(--black);
+    position: relative;
+    display: flex;
+}
+
+.iconDiv {
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--black);
+}
+
+.toggleDiv {
+    height: 100%;
+    width: 70px;
+    border: 2px solid var(--black);
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle{
+    height: 20px;
+    width: 80%;
+    border: 2px solid var(--black);
+    border-radius: 20px;
+}
+
+.togButton {
+    height: 100%;
+    width: 20px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    transition: 0.5s;
+}
+.animateButton {
+    transform: translateX(36px);
+}
+
+
