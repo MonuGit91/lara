@@ -21,9 +21,9 @@ class Solution1 {
 		else if(rank > k) {
             return quickSellectAlgo(arr, left, pointer-1, k);   
         }
-		else {
+	else {
 			return quickSellectAlgo(arr, pointer+1, right, k-rank);
-		}
+	}
 
     }
     public int findKthLargest(int[] nums, int k) {
