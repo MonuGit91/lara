@@ -16,13 +16,13 @@ class Solution1 {
         }
         swap(arr, pointer, right);
         
-		int rank = pointer-left+1;
-		if(rank == k) return arr[pointer];
-		else if(rank > k) {
+	int rank = pointer-left+1;
+	if(rank == k) return arr[pointer];
+	else if(rank > k) {
             return quickSellectAlgo(arr, left, pointer-1, k);   
         }
 	else {
-			return quickSellectAlgo(arr, pointer+1, right, k-rank);
+		return quickSellectAlgo(arr, pointer+1, right, k-rank);
 	}
 
     }
