@@ -1,4 +1,4 @@
-package Q009_firstUniqueCharacterInAString;
+package A009_firstUniqueCharacterInAString;
 
 import java.util.*;
 

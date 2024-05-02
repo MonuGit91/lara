@@ -1,4 +1,4 @@
-package Q011_reverseWordsByRetainingWords;
+package A011_reverseWordsByRetainingWhiteSpace;
 
 public class Solution {
 	public static void main(String[] args) {

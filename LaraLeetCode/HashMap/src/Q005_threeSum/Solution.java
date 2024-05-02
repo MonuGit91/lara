@@ -30,7 +30,6 @@ public class Solution {
                 list.add(target-current);
                 Collections.sort(list);
                 set.add(list);
-                list = new ArrayList<Integer>();
             }
             map.put(arr[i], i);
         }
