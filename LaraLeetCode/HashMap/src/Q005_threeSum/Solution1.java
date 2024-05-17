@@ -14,7 +14,7 @@ public class Solution1 {
 	public  List<List<Integer>> threeSum(int[] arr) {
 		List<List<Integer>> ans = new ArrayList<>();
 		for(int i = 0; i < arr.length; i++) {
-			twoSum(arr, -arr[i], i+1, arr[i]);
+			twoSum(arr, -arr[i], i+1, arr[i]);// a+b+c=t => a = t-(b+c)
 		}
 		ans.addAll(set);
 		return ans;

@@ -13,7 +13,7 @@ public class Solution {
 		for(int i = 0; i < arr.length; i++) {
 			int num = arr[i];
 			if(map.containsKey(num+n)) {
-				System.out.println(num + ", " + (n+num) + " " + n);
+				System.out.println("pair with diffrence " + n + " :" + num + ", " + (n+num));
 				return;
 			}
 			map.put(arr[i], i);

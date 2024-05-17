@@ -11,13 +11,15 @@ public class Solution {
 		int n = nums.length;
 		int i = 0, j = 0, zeroCount = 0, maxOne = 0;
 		for (; i < n; i++) {
-			if (nums[i] == 0)
+			if(nums[i] == 0) {
 				zeroCount++;
-			if (zeroCount > k) {
+			}
+			if(zeroCount > k) {
 				maxOne = Math.max(maxOne, i - j);
 				while (zeroCount > k) {
-					if (nums[j] == 0)
+					if (nums[j] == 0) {
 						zeroCount--;
+					}
 					j++;
 				}
 			}

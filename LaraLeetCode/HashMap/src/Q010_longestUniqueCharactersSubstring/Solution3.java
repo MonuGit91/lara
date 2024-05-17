@@ -5,9 +5,9 @@ import java.util.Map;
 
 public class Solution3 {
 	public static void main(String[] args) {
-		System.out.println(lengthOfLongestSubstring("abcabcbb"));
-		System.out.println(lengthOfLongestSubstring("bbbbb"));
-		System.out.println(lengthOfLongestSubstring("pwwkew"));
+		System.out.println(lengthOfLongestSubstring("abcabcbb"));//3
+		System.out.println(lengthOfLongestSubstring("bbbbb"));//1
+		System.out.println(lengthOfLongestSubstring("pwwkew"));//3
 	}
 
 	public static int lengthOfLongestSubstring(String s) {

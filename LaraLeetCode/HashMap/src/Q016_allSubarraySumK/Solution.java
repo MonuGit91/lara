@@ -1,5 +1,5 @@
 //	https://leetcode.com/problems/subarray-sum-equals-k/
-package Q015_allSubarraySumK;
+package Q016_allSubarraySumK;
 
 import java.util.*;
 
