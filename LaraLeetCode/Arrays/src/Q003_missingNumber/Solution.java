@@ -12,6 +12,6 @@ public class Solution {
         
         int dif = naturalSum-actualSum;
         
-        return dif == 0 ? (max == nums.length ? 0 : max+1) : dif;
+        return dif != 0 ? dif : (max == nums.length ? 0 : max+1);
     }
 }

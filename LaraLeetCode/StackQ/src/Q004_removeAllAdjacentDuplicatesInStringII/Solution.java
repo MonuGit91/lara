@@ -10,6 +10,10 @@ public class Solution {
 	class Test {
 		char c1;
 		int count;
+		Test(char c1, int count) {
+			this.c1 = c1;
+			this.count = count;
+		}
 	}
 
 	public String removeDuplicates(String s, int k) {
@@ -20,10 +24,7 @@ public class Solution {
 			if (!stack.isEmpty() && stack.peek().c1 == c1) {
 				stack.peek().count++;
 			} else {
-				Test test = new Test();
-				test.c1 = c1;
-				test.count = 1;
-				stack.push(test);
+				stack.push(new Test(c1, 1));
 			}
 			if (stack.peek().count == k) {
 				stack.pop();

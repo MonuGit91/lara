@@ -11,7 +11,7 @@ class Solution {
         int left = 0, right = n-1;
         int maxWater = 0;
         while(left < right) {
-            int water = Math.min(height[left], height[right])*(right-left);
+            int water = Math.min(height[left], height[right])*Math.abs(right-left);
             maxWater = Math.max(maxWater, water);
             if(height[left]< height[right]) left++;
             else right--;

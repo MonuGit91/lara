@@ -16,7 +16,6 @@ public class Solution {
             	}
             }
         }
-//        System.out.println("false");
         return false;
     }
 	private static int binarySearch(int[][] matrix, int left, int right, int target) {

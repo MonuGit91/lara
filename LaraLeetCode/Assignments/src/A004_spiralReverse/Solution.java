@@ -17,6 +17,7 @@ public class Solution {
 		} else {
 			rs = re = cs = ce = n / 2;
 			isOddLength = true;
+			list.add(matrix[rs][cs]);
 		}
 
 		if (isOddLength)

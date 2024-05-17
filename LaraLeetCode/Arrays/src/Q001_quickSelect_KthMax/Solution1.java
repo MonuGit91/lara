@@ -24,7 +24,6 @@ class Solution1 {
 		else {
 			return quickSellectAlgo(arr, pointer+1, right, k-rank);
 		}
-
     }
     public int findKthLargest(int[] nums, int k) {
         int n = nums.length;
