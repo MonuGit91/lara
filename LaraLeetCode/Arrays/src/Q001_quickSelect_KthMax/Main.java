@@ -2,7 +2,6 @@ package Q001_quickSelect_KthMax;
 
 public class Main {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Solution1 obj = new Solution1();
 //		Solution1 obj = new Solution1();
 //		Solution2 obj = new Solution2();
@@ -11,7 +10,8 @@ public class Main {
 		
 		int arr[] = { 2, 5, 1, 3, 8, 4, 6 };
 		System.out.println(obj.findKthLargest(arr, 2));
-
+		
+		
 //		int arr[] = { 1, 2, 3, 6, 2, 8, 9, 7 };
 //		System.out.println(obj.findKthLargest(arr, 3));
 //

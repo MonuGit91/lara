@@ -15,10 +15,12 @@ public class Solution1 {
 		
 		map.forEach((key, val) -> System.out.println(key + " " + val));
 		
+		System.out.println();
 		for(Entry<Integer, Integer> entry : map.entrySet()) {
 			System.out.println(entry.getKey() + " " + entry.getValue());
 		}
 		
+		System.out.println();
 		for(Integer key : map.keySet()) {
 			System.out.println(key + " " + map.get(key));
 		}

@@ -10,6 +10,7 @@ public class Solution {
 		System.out.println(lengthOfLongestSubstring("ababccbcaacabbba", 3));//16
 		System.out.println(lengthOfLongestSubstring("ninjacoder", 4));//5
 		System.out.println(lengthOfLongestSubstring("ninninja", 1));//2
+		System.out.println(lengthOfLongestSubstring("aaabb", 3));//2
 	}
 	public static int lengthOfLongestSubstring(String s, int k) {
 		Map<Character, Integer> map = new HashMap<>();

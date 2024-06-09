@@ -21,7 +21,7 @@ public class Solution1 {
 	}
 	
 	public void twoSum(int arr[], int target, int from, int x) {
-        Set<Integer> hs = new TreeSet();
+        Set<Integer> hs = new TreeSet<>();
         for(int i = from; i < arr.length; i++) {
         	int remaining = target-arr[i];
             if(hs.contains(remaining)) {

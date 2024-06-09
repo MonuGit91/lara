@@ -2,11 +2,11 @@ package Q003_missingNumber;
 
 public class Solution3 {
 	public int missingNumber(int[] nums) {
-		int missing = 0^nums[0];
-		for(int i = 1; i < nums.length; i++) {
-			missing = missing^nums[i]^i;
-		}
-		missing = missing^nums.length;//V.V.I
-    	return missing;	
+		int xor = 0;
+        for(int i = 0; i < nums.length; i++) {
+            xor = xor^nums[i]^i;
+        }
+        xor ^= nums.length; //V.V.I
+        return xor;
     }
 }

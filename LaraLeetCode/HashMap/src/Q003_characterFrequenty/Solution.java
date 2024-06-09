@@ -9,9 +9,11 @@ public class Solution {
 		for(int key : arr) {
 			map.put(key, map.getOrDefault(key, 0)+1);
 		}
-		Set<Integer> keys = map.keySet();
-		for(Integer key : keys) {
-			System.out.println(key + " : " + map.get(key));
-		}
+//		Set<Integer> keys = map.keySet();
+//		for(Integer key : keys) {
+//			System.out.println(key + " : " + map.get(key));
+//		}
+		map.forEach((key, val)->{System.out.println(key+" : "+val);});
+		
 	}
 }

@@ -20,15 +20,12 @@ public class Solution {
 		return ans;
 	}
 	public void twoSum(int arr[], int target, int from, int x) {
-        Map<Integer, Integer> map = new HashMap();
+        Map<Integer, Integer> map = new HashMap<>();
         for(int i = from; i < arr.length; i++) {
         	int current = arr[i];
             if(map.containsKey(target-current)) {
-            	List<Integer> list = new ArrayList<Integer>();
-                list.add(x);
-                list.add(arr[i]);
-                list.add(target-current);
-                Collections.sort(list);
+            	List<Integer> list = new ArrayList<>(Arrays.asList(x, current, target-current));
+            	Collections.sort(list);
                 set.add(list);
             }
             map.put(arr[i], i);

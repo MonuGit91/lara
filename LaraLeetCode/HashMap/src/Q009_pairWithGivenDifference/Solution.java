@@ -18,7 +18,6 @@ public class Solution {
 			}
 			map.put(arr[i], i);
 		}
-		
 		System.out.println("pair not found");
 	}
 }

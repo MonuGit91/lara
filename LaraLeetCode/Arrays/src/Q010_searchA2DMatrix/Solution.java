@@ -18,11 +18,4 @@ public class Solution {
         }
         return false;
     }
-	private static int binarySearch(int[][] matrix, int left, int right, int target) {
-		if(left >= right) return left;
-		int mid = (left+right)/2;
-		if(target == matrix[mid][0]) return mid;
-		if(target < matrix[mid][0]) return binarySearch(matrix, left, mid-1, target);
-		else return binarySearch(matrix, left, mid-1, target);
-	}
 }

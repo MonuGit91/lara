@@ -1,5 +1,6 @@
 package Q003_missingNumber;
 
+import java.util.*;
 public class Solution {
     public int missingNumber(int[] nums) {    	
         int max = nums[0], actualSum = nums[0];

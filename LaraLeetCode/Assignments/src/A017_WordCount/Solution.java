@@ -12,7 +12,7 @@ public class Solution {
 		map.forEach((key, val) -> System.out.println(key + " " + val) );
 	}
 	public static void main(String[] args) {
-		String s = "abc xyz abc xyz hello abc xyz hello test xyz";
+		String s = "abc xyz   abc xyz hello && abc xyz hello test xyz";
 		wordCount(s);
 	}
 }

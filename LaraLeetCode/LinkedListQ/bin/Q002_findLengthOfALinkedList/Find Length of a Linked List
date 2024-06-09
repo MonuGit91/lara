@@ -1,0 +1,8 @@
+https://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
+
+Find Length of a Linked List (Iterative and Recursive)
+
+Write a function to count the number of nodes in a given singly linked list
+
+Input: 2->4->1->9->5->3->6
+Output: 7 

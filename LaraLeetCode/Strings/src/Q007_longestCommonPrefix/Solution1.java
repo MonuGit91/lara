@@ -16,8 +16,7 @@ public class Solution1 {
         StringBuilder commonPrefix = new StringBuilder();
         String firstString = strs[0];
         String lastString = strs[strs.length-1];
-        int n = firstString.length() < lastString.length() ? 
-        		firstString.length() : lastString.length();
+        int n = Math.min(firstString.length(), lastString.length());
         
         for(int i = 0; i < n; i++) {
         	if(firstString.charAt(i) == lastString.charAt(i)) {
